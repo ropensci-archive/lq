@@ -1,0 +1,13 @@
+^Makefile$
+^\.travis\.yml$
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+man-roxygen
+^notes\.md$
+^appveyor.yml$
+^CODE_OF_CONDUCT\.md$
+cran-comments.md
+.github
+^cran-comments\.md$
+^codemeta\.json$

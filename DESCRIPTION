@@ -1,0 +1,19 @@
+Package: lq
+Title: List Queries
+Description: List queries using 'jq', a 'JSON' processor (<https://stedolan.github.io/jq/>) 
+    via the 'jqr' package.
+Version: 0.0.1.91000
+License: MIT + file LICENSE
+Encoding: UTF-8
+Authors@R: c(person("foo", "bar", role = c("aut", "cre"), email = "foo.bar@gmail.com"))
+URL: https://github.com/ropensci/lq
+BugReports: https://github.com/ropensci/lq/issues
+Roxygen: list(markdown = TRUE)
+Imports:
+    magrittr,
+    jsonlite,
+    jqr
+Suggests:
+    testthat
+Remotes: ropensci/jqr@select-and-objects
+RoxygenNote: 6.0.1
