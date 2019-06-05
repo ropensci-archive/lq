@@ -17,7 +17,7 @@ matrix:
 addons:
   apt:
     sources:
-      - sourceline: 'ppa:opencpu/jq'
+      - sourceline: 'ppa:jeroen/jq'
     packages:
       - libjq-dev
       - valgrind
