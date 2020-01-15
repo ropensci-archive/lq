@@ -2,12 +2,13 @@ Package: lq
 Title: List Queries
 Description: List queries using 'jq', a 'JSON' processor (<https://stedolan.github.io/jq/>) 
     via the 'jqr' package.
-Version: 0.0.1.91000
+Version: 0.0.2.91
 License: MIT + file LICENSE
-Encoding: UTF-8
-Authors@R: c(person("foo", "bar", role = c("aut", "cre"), email = "foo.bar@gmail.com"))
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"))
 URL: https://docs.ropensci.org/lq, https://github.com/ropensci/lq
 BugReports: https://github.com/ropensci/lq/issues
+Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Imports:
     magrittr,
@@ -15,5 +16,4 @@ Imports:
     jqr
 Suggests:
     testthat
-Remotes: ropensci/jqr@select-and-objects
-RoxygenNote: 6.0.1
+RoxygenNote: 7.0.2

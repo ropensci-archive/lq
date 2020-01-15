@@ -32,15 +32,15 @@ library(lq)
 #> $a$b
 #> $a$b$c
 #> [1] 1
-#> 
+#>
 #> $a$b$d
 #> [1] 2
-#> 
+#>
 #> $a$b$e
 #> [1] 3
-#> 
-#> 
-#> 
+#>
+#>
+#>
 #> $f
 #> [1] 45
 ```
@@ -61,33 +61,33 @@ library(jqr)
 #> [[1]]$b
 #> [[1]]$b$c
 #> [1] 1
-#> 
+#>
 #> [[1]]$b$d
 #> [1] 2
-#> 
+#>
 #> [[1]]$b$e
 #> [1] 3
-#> 
-#> 
-#> 
+#>
+#>
+#>
 #> [[2]]
 #> [1] 45
 (tj(x) %>% index() %>% index()) %>% fj
 #> $c
 #> [1] 1
-#> 
+#>
 #> $d
 #> [1] 2
-#> 
+#>
 #> $e
 #> [1] 3
 (tj(x) %>% index() %>% index() %>% select(. > 2)) %>% fj
 #> $c
 #> [1] 1
-#> 
+#>
 #> $d
 #> [1] 2
-#> 
+#>
 #> $e
 #> [1] 3
 (tj(x) %>% index() %>% select(. > 2)) %>% fj
@@ -95,15 +95,15 @@ library(jqr)
 #> [[1]]$b
 #> [[1]]$b$c
 #> [1] 1
-#> 
+#>
 #> [[1]]$b$d
 #> [1] 2
-#> 
+#>
 #> [[1]]$b$e
 #> [1] 3
-#> 
-#> 
-#> 
+#>
+#>
+#>
 #> [[2]]
 #> [1] 45
 (tj(x) %>% index() %>% index() %>% keys() %>% reverse) %>% fj
@@ -121,6 +121,8 @@ library(jqr)
 * Please [report any issues or bugs](https://github.com/ropensci/lq/issues).
 * License: MIT
 * Get citation information for `lq` in R doing `citation(package = 'lq')`
-* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+* Please note that this project is released with a [Contributor Code of Conduct][coc]. By participating in this project you agree to abide by its terms.
 
 [![rofooter](http://www.ropensci.org/public_images/github_footer.png)](http://ropensci.org)
+
+[coc]: https://github.com/ropensci/lq/blob/master/CODE_OF_CONDUCT.md
